@@ -1,0 +1,195 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-09T16:08:59.682Z",
+        "line": 25,
+        "name": "Register a user new user at elearningm1 and send Message from his/her account",
+        "description": "",
+        "id": "validating-elearning-appliaction;register-a-user-new-user-at-elearningm1-and-send-message-from-his/her-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User has naviatged to url: \"http://elearningm1.upskills.in/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks on SignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should land on Registration page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enter mandatory fields: \"testspark\",\"test\",\"testsparklo1@testelaea1r11nggkjmiaiol.com\",\"telst1soo1parkik11\",\"test\",\"test\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Register button on same page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Message shown on next page: \"Dear testspark test,Your personal settings have been registered.\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on right top arrow",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user profile with entered \"testsparklo1@testelaea1r11nggkjmiaiol.com\" should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User go to Home Page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "click on Compose link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "New_Message page should be displayed with title \u003d \"My Organization - My education - Compose message\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter data for SenTo, Subject, messgae",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999200,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click on Send Message button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5997700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User should see acknowledgement message in Inbox Page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2997400,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Logout the browser",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2997800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Close the browser",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Signup"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Elearning appliaction",
+    "description": "",
+    "id": "validating-elearning-appliaction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ElearningRegister.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

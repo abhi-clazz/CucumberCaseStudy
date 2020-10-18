@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.583">
+    <testcase classname="Validating Elearning appliaction" name="Register a user new user at elearningm1 and send Message from his/her account" time="0.231">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User has naviatged to url: "http://elearningm1.upskills.in/"..........undefined
+When User clicks on SignUp link.............................................skipped
+Then User should land on Registration page..................................skipped
+When User enter mandatory fields: "testspark","test","testsparklo1@testelaea1r11nggkjmiaiol.com","telst1soo1parkik11","test","test".skipped
+And Click on Register button on same page...................................skipped
+Then Message shown on next page: "Dear testspark test,Your personal settings have been registered.".skipped
+When click on right top arrow...............................................skipped
+Then user profile with entered "testsparklo1@testelaea1r11nggkjmiaiol.com" should be displayed.skipped
+Then User go to Home Page...................................................skipped
+When click on Compose link..................................................skipped
+Then New_Message page should be displayed with title = "My Organization - My education - Compose message".skipped
+When user enter data for SenTo, Subject, messgae............................skipped
+And Click on Send Message button............................................skipped
+Then User should see acknowledgement message in Inbox Page..................skipped
+Then Logout the browser.....................................................skipped
+And Close the browser.......................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
